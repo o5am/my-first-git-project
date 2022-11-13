@@ -1,1 +1,17 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+jobs:
+  bulid:
+    runs-on: ubuntu_latest
+
+    steps:
+      - name: 'test githup'
+        run: pwd 
+
+      - name: 'test print'
+        run: echo osama    
