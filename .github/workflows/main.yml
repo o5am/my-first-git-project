@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'test githup'
-        run: pwd 
+      - name: 'print all folder content'
+        run: ls
 
-      - name: 'test print'
-        run: echo osama    
+   
