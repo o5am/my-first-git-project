@@ -7,7 +7,7 @@ on:
 
 jobs:
   bulid:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'test githup'
