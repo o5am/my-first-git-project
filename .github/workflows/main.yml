@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print all folder content'
+      - name: 'print all folder before'
         run: ls
 
-   
+      - uses: actions/checkout@v3
+
+      - name: 'login to doockerhup'
+        run: docker login --username 0SAMa2001 --password 0$AM@200! dckr_pat_v3teKK6t4ZWHkU0pxzJA4XPgjUE
