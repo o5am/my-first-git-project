@@ -10,9 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     
+      - uses: actions/checkout@v3
 
-     - uses: actions/checkout@v3
-
-     - name: 'login to doockerhup'
+      - name: 'login to doockerhup'
         run: docker login --username 0sama2001 --password 0$AM@200!
